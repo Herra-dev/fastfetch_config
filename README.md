@@ -8,17 +8,33 @@
 ![Fastfetch](fastfetch/img/archlinux1) can be found [here](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux) with a great resolution
 
 ## How to use it
-### 1- Install [fastfetch](https://link.to.fastfetch) for linux (all command must be run as sudo)
+### 1- Install [fastfetch](https://link.to.fastfetch) for linux (all command must be run as sudo, doas or sup)
 #### Debian / Debian based:
-##### Update your system packages repositories: 
-    apt update
-##### Install fastfetch:
     apt install fastfetch
 #### ArchLinux / Arch based:
-##### Update your system packages repositories:
-    pacman -Syu
-##### Install fastfetch:
     pacman -S fastfetch
+#### Fedora:
+    dnf install fastfetch
+#### Gentoo:
+    emerge --ask app-misc/fastfetch
+#### Alpine:
+    apk add --upgrade fastfetch
+#### NixOS:
+    nix-shell -p fastfetch
+#### OpenSUSE:
+    zypper install fastfetch
+#### ALT Linux:
+    apt-get install fastfetch
+#### Exherbo:
+    cave resolve --execute app-misc/fastfetch
+#### Solus:
+    eopkg install fastfetch
+#### Slackware:
+    sbopkg -i fastfetch
+#### Void Linux:
+    xbps-install fastfetch
+#### Venom Linux:
+    scratch install fastfetch
 ### 2- Generate fastfetch config:
     fastfetch --gen-config
 #### or
@@ -30,5 +46,5 @@
 
 ## NOTE: [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) config was tested with [kitty](https://kitty.repo) terminal
 
-### see man [fastfetch](man.fastfetch) for more information
+### see man [fastfetch](https://github.com/fastfetch-cli/fastfetch) for more information
 # Thank you
