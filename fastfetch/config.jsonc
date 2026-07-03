@@ -1,0 +1,172 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+	"type": "kitty",
+	"source": "~/.config/fastfetch/archlinux",
+	"height": 26
+    },
+    "display": {
+        "separator": " -> ",
+        "constants": [
+            "──────────────────────────"
+        ],
+	"constants": [
+            "         ────────      "
+        ],
+	"constants": [
+	    "════════════════════════"
+	]
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "┌{$1} arch {$1}┐",
+            "outputColor": "#a500ff"
+        },
+	{    
+            "type": "custom",
+            "format": "┼{$2} YOURNAME {$3}╕",
+            "outputColor": "#7f00ff"
+        },
+        {
+            "type": "custom",
+            "format": "└{$1} arch {$1}┘ │",
+            "outputColor": "#7f00ff"
+        },
+        {
+            "type": "custom",
+            "format": "┌{$1} arch {$1}┐ │",
+            "outputColor": "#4800ff"
+        },
+        {
+            "type": "os",
+            "key": "OS ───────────",
+            "keyColor": "#1f00ff",
+	    "outputColor":"#1f00ff"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├ kernel    ",
+            "keyColor": "#0005ff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├ packages  ",
+            "keyColor": "#002fff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "shell",
+            "key": "│ └ shell     ",
+            "keyColor": "#004eff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "wm",
+            "key": "DE/WM ────────",
+            "keyColor": "#0077ff",
+	    "outputColor": "#0077ff"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├ lm        ",
+            "keyColor": "#00a0ff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├ wmtheme   ",
+            "keyColor": "#00c5ff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "icons",
+            "key": "│ ├ icons     ",
+            "keyColor": "#00fbff",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "terminal",
+            "key": "│ ├ terminal  ",
+            "keyColor": "#00ffc6",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "wallpaper",
+            "key": "│ └ wallpaper ",
+            "keyColor": "#00ff8c",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "host",
+            "key": "PC ───────────",
+            "keyColor": "#00ff55",
+	    "outputColor": "#00ff55"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├ CPU       ",
+            "keyColor": "#00ff19",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├ GPU       ",
+            "keyColor": "#19ff00",
+	    "hideType": "discrete",
+	    "format": "{name}",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "disk",
+            "key": "│ ├ /         ",
+            "keyColor": "#48ff00",
+	    "folders": "/",
+	    "outputColor": "bright_white"
+        },
+	{
+            "type": "disk",
+            "key": "│ ├ /home     ",
+            "keyColor": "#82ff00",
+	    "folders": "/home",
+	    "outputColor": "bright_white"
+        },
+	{
+            "type": "disk",
+            "key": "│ ├ /var      ",
+            "keyColor": "#abff00",
+	    "folders": "/var",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├ RAM       ",
+            "keyColor": "#e9ff00",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "swap",
+            "key": "│ ├ SWAP      ",
+            "keyColor": "#ffd100",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "uptime",
+            "key": "│ ├ uptime    ",
+            "keyColor": "#ff8800",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "display",
+            "key": "│ └ screen    ",
+            "keyColor": "#ff5100",
+	    "outputColor": "bright_white"
+        },
+        {
+            "type": "custom",
+            "format": "└{$1} arch {$1}┘",
+            "outputColor": "#ff1800"
+        }
+    ]
+}
