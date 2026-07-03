@@ -8,7 +8,7 @@
 ![Fastfetch](fastfetch/img/archlinux1) can be found [here](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux) with a great resolution
 
 ## How to use it
-### 1- Install [fastfetch](https://link.to.fastfetch) for linux (all command must be run as sudo, doas or sup)
+### 1- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) for linux (all command must be run as sudo, doas or sup)
 #### Debian / Debian based:
     apt install fastfetch
 #### ArchLinux / Arch based:
@@ -40,11 +40,11 @@
 #### or
     fastfetch --gen-config-full
 
-### 3- Download [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) fastfetch config and move it into ~/.config/fastfetch/ (replace the existing config)
+### 3- Download [this](fastfetch/config.jsonc) fastfetch config and move it into ~/.config/fastfetch/ (replace the existing config)
 
-### 4- Download [this photo](image) if you want it, or copy your own photo into diretory /home/yourUserName/.config/fastfetch/, after that, modify the path in config.jsonc file to match the path to your picture
+### 4- Download [this photo](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux) if you want it, or copy your own photo into diretory /home/yourUserName/.config/fastfetch/, after that, modify the path in config.jsonc file to match the path to your picture
 
-## NOTE: [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) config was tested with [kitty](https://kitty.repo) terminal
+## NOTE: [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) config was tested with [kitty](https://github.com/kovidgoyal/kitty) terminal
 
 ### see man [fastfetch](https://github.com/fastfetch-cli/fastfetch) for more information
 # Thank you
