@@ -40,7 +40,7 @@
 #### or
     fastfetch --gen-config-full
 
-### 3- Download [this](fastfetch/config.jsonc) fastfetch config and move it into ~/.config/fastfetch/ (replace the existing config)
+### 3- Download [this](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux) fastfetch config and move it into ~/.config/fastfetch/ (replace the existing config)
 
 ### 4- Download [this photo](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux) if you want it, or copy your own photo into diretory /home/yourUserName/.config/fastfetch/, after that, modify the path in config.jsonc file to match the path to your picture
 
