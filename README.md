@@ -2,13 +2,10 @@
 ## by [Herra-dev](https://github.com/Herra-dev)
 
 
-![Fastfetch](fastfetch/img/archlinux)
-
-//## Image used
-//![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux)
+![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux1)
 
 ## Image used
-![Fastfetch](fastfetch/img/archlinux1) can be found [here](https://github.com/Herra-dev/Herra-dev-applications-pics/fastfetch/archlinux) with a great resolution
+![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux)
 
 ## How to use it
 ### 1- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) for linux (all command must be run as sudo, doas or sup)
@@ -49,5 +46,5 @@
 
 ## NOTE: [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) config was tested with [kitty](https://github.com/kovidgoyal/kitty) terminal
 
-### see man [fastfetch](https://github.com/fastfetch-cli/fastfetch) for more information
+### see [fastfetch](https://github.com/fastfetch-cli/fastfetch) for more information
 # Thank you
