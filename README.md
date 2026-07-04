@@ -44,7 +44,7 @@
 
 ### 4- Download [this photo](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux) if you want it, or copy your own photo into diretory /home/yourUserName/.config/fastfetch/, after that, modify the path in config.jsonc file to match the path to your picture
 
-## NOTE: [this](https://github.com/Herra-dev/Fastfetch_repo/fastfetch/config.jsonc) config was tested with [kitty](https://github.com/kovidgoyal/kitty) terminal
+## NOTE: [this](https://github.com/Herra-dev/fastfetch_config/blob/7e0e3fdc7835232e9020c2c631ae798093702982/fastfetch/config.jsonc) config was tested with [kitty](https://github.com/kovidgoyal/kitty) terminal
 
 ### see [fastfetch](https://github.com/fastfetch-cli/fastfetch) for more information
 # Thank you
