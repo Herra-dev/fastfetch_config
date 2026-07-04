@@ -5,7 +5,7 @@
 ![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux1)
 
 ## Image used
-![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/archlinux)
+![Fastfetch](https://github.com/Herra-dev/Herra-dev-applications-pics/blob/main/fastfetch/mini/archlinux)
 
 ## How to use it
 ### 1- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) for linux (all command must be run as sudo, doas or sup)
